@@ -1,15 +1,14 @@
 {
   "groups": {
-    "test 1": {
+    "example 1": {
       "paths": [
-        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files",
-        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files 2"
+        "/absolute/or/relative/path",
+        "/another/path"
       ]
     },
-    "test 2": {
+    "example 2": {
       "paths": [
-        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files",
-        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files/pienux_out-01.root"
+        "/absolute/or/relative/path"
       ]
     }
   },
@@ -33,7 +32,7 @@
     "positron-individual": ["e+i", "e+", "positron"]
   },
   "instructions": {
-    "group": "test 2",
+    "group": "example 1",
     "target": "calo",
     "histogramStackDrawMode": "nostack",
     "histograms": [
