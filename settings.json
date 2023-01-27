@@ -1,0 +1,48 @@
+{
+  "groups": {
+    "test 1": {
+      "paths": [
+        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files",
+        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files 2"
+      ]
+    },
+    "test 2": {
+      "paths": [
+        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files",
+        "/Users/andou/Documents/Repos/tail-albedo-plotter/root files/pienux_out-01.root"
+      ]
+    }
+  },
+  "aliases": {
+    "lyso-center": ["lc"],
+    "lyso-inner-ring": ["lir"],
+    "lyso-outer-ring": ["lor"],
+    "lyso-center,inner-ring": ["lci"],
+    "lyso-center,inner-ring,outer-ring": ["lcio"],
+    "lyso-all": ["la"],
+    "csi-center": ["cc"],
+    "csi-inner-ring": ["cir"],
+    "csi-outer-ring": ["cor"],
+    "csi-center,inner-ring": ["cci"],
+    "csi-center,inner-ring,outer-ring": ["ccio"],
+    "csi-all": ["ca"],
+    "reference-plane": ["rp", "ref"],
+    "neutron-individual": ["ni", "n", "neutron"],
+    "photon-individual": ["pi", "p", "photon"],
+    "electron-individual": ["ei", "e", "electron"],
+    "positron-individual": ["e+i", "e+", "positron"]
+  },
+  "instructions": {
+    "group": "test 2",
+    "target": "calo",
+    "histogramStackDrawMode": "nostack",
+    "histograms": [
+      "lyso-center",
+      "lyso-center,inner-ring",
+      "lor",
+      "ca"
+    ],
+    "logYAxis": true,
+    "showLegend": false
+  }
+}
